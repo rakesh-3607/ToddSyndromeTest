@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llEmptyViewMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivEmptyImage"
+        android:layout_width="@dimen/empty_data_image_width"
+        android:layout_height="@dimen/empty_data_image_height"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:src="@drawable/icn_no_connection"/>
+
+    <com.testcompany.utils.view.CustomTextView
+        android:id="@+id/tvEmptyTitle"
+        style="@style/recyclerview_empty_text"
+        android:padding="@dimen/smallPadding"
+        android:textSize="@dimen/normalSize"
+        android:visibility="gone"
+        app:custom_font="OpenSans_Bold" />
+
+    <com.testcompany.utils.view.CustomButton
+        android:id="@+id/btnEmpty"
+        style="@style/recyclerview_empty_button"
+        android:layout_margin="@dimen/smallPadding"
+        android:textSize="@dimen/mediumSize"
+        app:custom_font="OpenSans_Bold"
+        android:visibility="gone"/>
+
+    <com.testcompany.utils.view.CustomTextView
+        android:id="@+id/tvEmptyDescription"
+        style="@style/recyclerview_empty_text"
+        android:textSize="@dimen/mediumSize"
+        android:visibility="gone"
+        app:custom_font="OpenSans_Regular" />
+
+</LinearLayout>

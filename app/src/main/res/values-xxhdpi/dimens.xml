@@ -1,0 +1,33 @@
+<resources>
+    <!-- padding /margins-->
+    <dimen name="microPadding">6dp</dimen>
+    <dimen name="miniPadding">8dp</dimen>
+    <dimen name="tinyPadding">9dp</dimen>
+    <dimen name="smallestPadding">11dp</dimen>
+    <dimen name="smallPadding">12dp</dimen>
+    <dimen name="mediumPadding">14dp</dimen>
+    <dimen name="extraMediumPadding">16dp</dimen>
+    <dimen name="normalPadding">19dp</dimen>
+    <dimen name="extraNormalPadding">22dp</dimen>
+    <dimen name="largePadding">24dp</dimen>
+    <dimen name="xlargePadding">27dp</dimen>
+    <dimen name="xxlargePadding">29dp</dimen>
+    <dimen name="xxxlargePadding">35dp</dimen>
+    <dimen name="largerPadding">38dp</dimen>
+    <dimen name="xlargerPadding">40dp</dimen>
+    <dimen name="xxlargerPadding">44dp</dimen>
+    <dimen name="largestPadding">47dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="tinnySize">7sp</dimen>
+    <dimen name="smallerSize">8sp</dimen>
+    <dimen name="smallSize">10sp</dimen>
+    <dimen name="mediumSize">12sp</dimen>
+    <dimen name="extraMediumSize">15sp</dimen>
+    <dimen name="normalSize">17sp</dimen>
+    <dimen name="largeSize">20sp</dimen>
+    <dimen name="xLargeSize">22sp</dimen>
+    <dimen name="xxLargeSize">25sp</dimen>
+    <dimen name="xxxLargeSize">32sp</dimen>
+
+</resources>

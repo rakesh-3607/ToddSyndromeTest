@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Todd Syndrome Test</string>
+    <string name="app_version">Version: </string>
+    <string name="bookmark">BOOKMARK IT</string>
+    <string name="no_connection">No internet Connection available</string>
+    <string name="failed_response_title">Oops..Something went wrong</string>
+    <string name="no_bookmark_found">No Bookmark Found</string>
+    <string name="no_history_found">No History Found</string>
+    <string name="something_went_wrong">Oops..Something went wrong</string>
+    <string name="fetching_data_title">Fetching data..</string>
+    <string name="try_again">Try again</string>
+    <string name="no_connection_description">Please enable internet connection and click on try again button</string>
+    <string name="ok">OK</string>
+    <string name="key_male">Male</string>
+    <string name="past_rsults">Past Results</string>
+    <string name="patients">Patients</string>
+    <string name="age">AGE : </string>
+    <string name="age_title">Age</string>
+    <string name="disorder">Disorder</string>
+    <string name="drugs">Drugs </string>
+    <string name="patient_detail_screen">Patient Detail</string>
+    <string name="patient_list_screen">Patient List</string>
+    <string name="patient_history_screen">Patient History</string>
+    <string name="history">History</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="remove_bookmark">Remove Bookmark</string>
+
+
+</resources>

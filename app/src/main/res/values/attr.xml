@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTextView">
+        <attr name="custom_font" />
+        <attr name="line_spacing" format="dimension" />
+        <attr name="letter_spacing" format="dimension" />
+        <attr name="line_height" format="dimension" />
+        <attr name="strike" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="custom_font" />
+        <attr name="edt_txt_line_spacing" format="dimension" />
+        <attr name="edt_txt_letter_spacing" format="dimension" />
+        <attr name="edt_txt_line_height" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomButton">
+        <attr name="custom_font" />
+        <attr name="btn_line_spacing" format="dimension" />
+        <attr name="btn_letter_spacing" format="dimension" />
+        <attr name="btn_line_height" format="dimension" />
+    </declare-styleable>
+
+    <attr name="custom_font">
+        <enum name="OpenSans_Bold" value="1" />
+        <enum name="OpenSans_BoldItalic" value="2" />
+        <enum name="OpenSans_ExtraBold" value="3" />
+        <enum name="OpenSans_ExtraBoldItalic" value="4" />
+        <enum name="OpenSans_Italic" value="5" />
+        <enum name="OpenSans_Light" value="6" />
+        <enum name="OpenSans_LightItalic" value="7" />
+        <enum name="OpenSans_Regular" value="8" />
+        <enum name="OpenSans_Semibold" value="9" />
+        <enum name="OpenSans_SemiboldItalic" value="10" />
+    </attr>
+
+    // RecyclerView resources
+    <declare-styleable name="CustomRecyclerView">
+        <attr name="pagination" format="boolean" />
+        <attr name="loadmore_visibility" format="boolean" />
+        <attr name="gird_span" format="integer" />
+        <attr name="list_type" />
+        <attr name="list_orientation" />
+        <attr name="loadmore_type" />
+    </declare-styleable>
+    <attr name="loadmore_type">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+
+    <attr name="list_type">
+        <enum name="list" value="0" />
+        <enum name="grid" value="1" />
+        <enum name="staggered" value="2" />
+    </attr>
+
+    <attr name="list_orientation">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+</resources>

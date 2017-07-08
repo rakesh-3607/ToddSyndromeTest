@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/tinyPadding"
+    android:orientation="horizontal">
+
+    <com.testcompany.utils.view.CustomTextView
+        android:id="@+id/tvKey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/tinyPadding"
+        android:layout_weight="50"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/extraMediumSize"
+        app:custom_font="OpenSans_Semibold" />
+
+    <com.testcompany.utils.view.CustomTextView
+        android:id="@+id/tvDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tinyPadding"
+        android:text=":"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/extraMediumSize"
+        app:custom_font="OpenSans_Bold" />
+
+    <com.testcompany.utils.view.CustomTextView
+        android:id="@+id/tvValue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/tinyPadding"
+        android:layout_weight="50"
+        android:paddingStart="@dimen/smallPadding"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/extraMediumSize"
+        app:custom_font="OpenSans_Semibold" />
+
+</LinearLayout>

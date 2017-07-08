@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/mediumSize"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnBookmark"
+        android:layout_marginBottom="@dimen/smallPadding">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/ivGender"
+                android:layout_width="@dimen/height_gender"
+                android:layout_height="@dimen/height_gender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/mediumPadding"
+                android:src="@drawable/img_male" />
+
+            <com.testcompany.utils.view.CustomTextView
+                android:id="@+id/tvPatientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivGender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/mediumPadding"
+                android:textSize="@dimen/xLargeSize"
+                app:custom_font="OpenSans_Bold" />
+
+            <com.testcompany.utils.view.CustomTextView
+                android:id="@+id/tvPatientAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPatientName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/mediumPadding"
+                android:text="@string/age_title"
+                android:textSize="@dimen/extraMediumSize"
+                app:custom_font="OpenSans_Semibold" />
+
+
+            <LinearLayout
+                android:id="@+id/llDisorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPatientAge"
+                android:layout_margin="@dimen/tinyPadding"
+                android:orientation="horizontal">
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDisorderTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/mediumPadding"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:layout_weight="70"
+                    android:text="@string/disorder"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Semibold" />
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDisorderDot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:text=":"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Bold" />
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDisorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:layout_weight="30"
+                    android:paddingStart="@dimen/smallPadding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDrugs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llDisorder"
+                android:layout_margin="@dimen/tinyPadding"
+                android:orientation="horizontal">
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDrugsTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/mediumPadding"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:layout_weight="70"
+                    android:text="@string/drugs"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Semibold" />
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDrugsDot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:text=":"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Bold" />
+
+                <com.testcompany.utils.view.CustomTextView
+                    android:id="@+id/tvDrugs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/tinyPadding"
+                    android:layout_weight="30"
+                    android:paddingStart="@dimen/smallPadding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/extraMediumSize"
+                    app:custom_font="OpenSans_Regular" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/llDrugs"
+                android:layout_marginLeft="@dimen/mediumPadding"
+                android:layout_marginRight="@dimen/mediumPadding"
+                android:layout_marginTop="@dimen/mediumPadding"
+                android:background="@color/gray_medium" />
+
+            <com.testcompany.utils.view.CustomTextView
+                android:id="@+id/tvParsentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/mediumPadding"
+                android:background="@drawable/drawable_circulwhite"
+                android:gravity="center"
+                android:text="75%"
+                android:textColor="@color/white"
+                app:custom_font="OpenSans_Bold"
+                android:textSize="@dimen/xxLargeSize" />
+
+
+            <LinearLayout
+                android:id="@+id/llDeces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvParsentage"
+                android:layout_marginLeft="@dimen/largePadding"
+                android:layout_marginRight="@dimen/largePadding"
+                android:layout_marginTop="@dimen/smallPadding"
+                android:background="@drawable/item_outershape"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/mediumPadding"
+                android:paddingLeft="@dimen/smallPadding"
+                android:paddingRight="@dimen/smallPadding"
+                android:paddingTop="@dimen/mediumPadding" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.testcompany.utils.view.CustomButton
+        android:id="@+id/btnBookmark"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_compare_selector"
+        android:text="@string/bookmark"
+        android:textColor="@color/white"
+        app:custom_font="OpenSans_Bold"/>
+</RelativeLayout>
