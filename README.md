@@ -1,4 +1,4 @@
-# patientTest
+# Todd Syndrome test
 
 ### Following cases are considered.
 
