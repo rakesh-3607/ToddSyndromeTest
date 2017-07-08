@@ -48,8 +48,8 @@ I have added Array for the patient_disorders & patient_drugs as there are chance
 
 - Quick explanation of the fields i modelled which are not used in UI
 
-patient_contact : Later we can just put a short button to call directly if syndrome chances are high
-patient_date_created & patient_date_updated : To allow some easy way of sorting. 
-patient_disorders >> severity : If weight is readjusted based on severity
-patient_drugs >>drug_date_updated : If weight is readjusted based on time when drug was taken for exmaple in last 30 days etc.
+- patient_contact : Later we can just put a short button to call directly if syndrome chances are high
+- patient_date_created & patient_date_updated : To allow some easy way of sorting. 
+- patient_disorders >> severity : If weight is readjusted based on severity
+- patient_drugs >>drug_date_updated : If weight is readjusted based on time when drug was taken for exmaple in last 30 days etc.
 
